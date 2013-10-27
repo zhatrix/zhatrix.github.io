@@ -3,7 +3,6 @@ layout: default
 title: 建立github blog 注意项
 permalink: github_tips.html
 description: 搭建blog时遇到的一些问题
-date: 2013-10-26 22:21:57 +08:00
 tags: "github" "blog"
 ---
 
