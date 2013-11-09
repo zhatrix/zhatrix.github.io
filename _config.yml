@@ -2,3 +2,4 @@
 pygments: true
 permalink: /bolg/:year/:month/:day/:title
 date_format: "ordinal"
+baseurl: /
