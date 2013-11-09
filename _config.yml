@@ -1,4 +1,4 @@
 ﻿markdown: rdiscount
 pygments: true
-baseurl: /
-url: http://zhatrix.github.io/
+permalink: /bolg/:year/:month/:day/:title
+date_format: "ordinal"

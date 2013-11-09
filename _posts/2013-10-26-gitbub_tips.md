@@ -1,9 +1,6 @@
 ---
 layout: default
-title: 建立github blog 注意项
-permalink: github_tips.html
-description: 搭建blog时遇到的一些问题
-tags: "github" "blog"
+title: 建立github blog注意项
 ---
 
 **建立blog时的注意项**
