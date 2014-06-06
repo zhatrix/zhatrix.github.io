@@ -1,17 +1,61 @@
----
-layout: default
-title: 时间的空间
----
+<html>
+<head>
 
-<a href="http://zhatrix.farbox.com">文章收集所在地</a>
-|
-<a href="http://www.douban.com/people/zhatrix/">豆瓣</a>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="http://zhatrix.github.io/home.css" rel="stylesheet" type="text/css">
+    <title>{{ page.title }}</title>
+    
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="opacity: .9">
+<div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" class="navbar-toggle" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">时间的空间</a>
+        </div>
 
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Blog</a></li>
+                <li><a href="https://github.com/zhatrix">GitHub</a></li>
+                <li><a href="https://www.v2ex.com/member/zhatrix">V2EX</a></li>
+                <li><a href="https://t.qq.com/armszhang">腾讯微博</a></li>
+                <li><a href="http://www.weibo.com/armszhang">新浪微博</a></li>
+                <li><a href="mailto:zhatrix@gmail.com">Email</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+<div style="padding-top: 70px" class="row">
+    <div class="container center-block">
+       <div class="col-md-2"></div>
+        <div class="col-md-8 col-sm-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Blog</h3>
+                </div>
 <ul>
 {% for post in site.posts %}
     <li>{{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
 </ul>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
 
-<a href='/index.html'>目录</a>
+</body>
+
+
+</html>
