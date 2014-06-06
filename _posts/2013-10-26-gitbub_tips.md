@@ -1,7 +1,11 @@
 ---
 layout: default
 title: 建立github blog注意项
+keywords:github, cname
+categories: [Github, blog]
+tags: [Github, blog]
 ---
+{% include codepiano/setup %}
 
 **建立blog时的注意项**
 
