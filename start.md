@@ -8,7 +8,7 @@ layout: start
 [V2EX](https://www.v2ex.com)
 [Google-Aol](http://search.aol.com/aol/search?q=%25s)
 [百度](http://www.baidu.com)
-[MSCBSC](http://bbs.mscbsc.com)
+[Mscbsc](http://www.mscbsc.com/bbs/)
 [豆瓣](http://www.douban.com)
 [知乎](http://www.zhihu.com)
 [网易音乐](http://music.163.com)
@@ -22,7 +22,7 @@ layout: start
 [阳志平](http://www.yangzhiping.com) 
 [冯大辉](http://dbanotes.net)
 [王垠](http://www.yinwang.org)
-[Lifehacker](http://www.lifehacker.com/)
+[LifeHacker](http://www.lifehacker.com/)
 [酷壳](http://coolshell.cn/)
 [阮一峰](http://www.ruanyifeng.com/)
 [土摩托日记](http://www.immusoul.com/)
@@ -40,8 +40,8 @@ layout: start
 **视觉**
 
 [奇遇](http://www.qiyu.net/)
-[fotofeel](http://www.fotofeel.com/)
-[WANIMAL](http://wanimal.lofter.com/)
+[FotoFeel](http://www.fotofeel.com/)
+[WaniMal](http://wanimal.lofter.com/)
 
 
 --------
@@ -49,8 +49,9 @@ layout: start
 **编程**
 
 [Python](http://www.python.org)
-[codecademy](http://www.codecademy.com/)
+[CodeCademy](http://www.codecademy.com/)
 [LeetCode](http://leetcode.com/)
+[Codeforces](http://codeforces.com/)
 
 
 
@@ -69,8 +70,8 @@ layout: start
 
 **软件**
 
-[Mozila Firefox](http://www.getfirefox.com/)
-[QQ 软件](http://pc.qq.com)
+[Firefox](http://www.getfirefox.com/)
+[qq软件](http://pc.qq.com)
 [小众软件](http://www.appinn.com/)
 [善用佳软](http://xbeta.info/)
 
