@@ -5,7 +5,7 @@ title: 时间的空间
 
 <ul class=“list-group”>
 {% for post in site.posts %}
-    <li>{{ post.date | date_to_string }} <a class = “list-group-item title" href="{{ post.url }}">{{ post.title }}</a></li>
+    <li class=“list-group-item title"> <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
 </ul>
