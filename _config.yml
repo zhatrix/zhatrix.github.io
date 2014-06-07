@@ -1,5 +1,10 @@
-﻿markdown: rdiscount
+﻿title:            "时间的空间"
+description:      "让时间流淌的更慢一下，让现在更有意义一些"
+url:              "http://zhatrix.com"
+
+markdown: rdiscount
 pygments: true
 permalink: /bolg/:year/:month/:day/:title
 date_format: "ordinal"
 baseurl: /
+

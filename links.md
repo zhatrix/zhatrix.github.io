@@ -1,6 +1,6 @@
 ---
 title: 推荐博客
-layout: page
+layout: default
 ---
 
 [小道消息](http://tutu.me)  
