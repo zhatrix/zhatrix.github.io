@@ -6,6 +6,7 @@ layout: start
 **常用网站**
 
 [V2EX](https://www.v2ex.com)
+[Google](https://www.google.com/ncr)
 [Google-Aol](http://search.aol.com/aol/search?q=%25s)
 [百度](http://www.baidu.com)
 [Mscbsc](http://www.mscbsc.com/bbs/)
