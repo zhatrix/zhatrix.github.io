@@ -20,7 +20,7 @@ title: 如何正确的访问Google
 > http://74.125.228.51/   
 
 * 通过下面这几个地址访问    
-> http://www.google.com/ncr/   
+> https://www.google.com/ncr/   
 > http://startpage.com/   
 > http://google.com.im/   
 
