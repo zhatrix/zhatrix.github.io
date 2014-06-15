@@ -1,7 +1,7 @@
-----
-title: 喜欢的一些句子
-layout: default
-----
+---
+title:  喜欢的一些句子
+layout:  default
+---
 
 你所有的困惑都是因为读得太少，想得太多。--杨绛
 
