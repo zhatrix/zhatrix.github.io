@@ -2,7 +2,7 @@
 keywords :        生活, 感悟, 通信, python, 编程, zhatrix
 description:      生活点滴记录
 url:              http://zhatrix.com
-baseurl: /
+# baseurl: /
 encoding: utf-8
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
