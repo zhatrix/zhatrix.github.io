@@ -16,4 +16,9 @@ pygments: true
 permalink: /blog/:year/:month/:day/:title
 date_format: "ordinal"
 
+comments :
+    provider: duoshuo
+    duoshuo: 
+        short_name: zhatrix
+
 
