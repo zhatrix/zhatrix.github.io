@@ -145,6 +145,7 @@ Replace:
 	%s/,/\r/g
 
 参考:
+
 * [简明 Vim 练级攻略](http://coolshell.cn/articles/5426.html)
 * [VIM](http://wiki.tankywoo.com/tool/vim.html)
 * [How to replace a character for a newline in Vim?](http://stackoverflow.com/questions/71323/how-to-replace-a-character-for-a-newline-in-vim)
