@@ -1,5 +1,5 @@
 ----
-tile: 喜欢的一些句子
+title: 喜欢的一些句子
 layout: default
 ----
 
