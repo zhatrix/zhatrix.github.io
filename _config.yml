@@ -1,12 +1,9 @@
 ﻿title:            时间的空间
 keywords :        生活, 感悟, 通信, python, 编程, zhatrix
 description:      生活点滴记录
-# url:              http://zhatrix.com
-baseurl: /
+url:              http://zhatrix.com
+# baseurl: /
 encoding: utf-8
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-
-
 markdown: redcarpet
 redcarpet: 
     extensions: ["fenced_code_blocks", "tables", "highlight", "strikethrough", "underline"]
@@ -15,10 +12,3 @@ redcarpet:
 pygments: true
 permalink: /blog/:year/:month/:day/:title
 date_format: "ordinal"
-
-comments :
-    provider: duoshuo
-    duoshuo: 
-        short_name: zhatrix
-
-
