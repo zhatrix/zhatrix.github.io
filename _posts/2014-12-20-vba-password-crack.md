@@ -1,5 +1,7 @@
-破解VBA密码
--------
+---
+title:破解VBA密码
+layout: default
+---
 
 最近工作需要转换华为TD的MML原始数据，自己原来有的一个版本相对较老了，在[mscbsc](www.mscbsc.com)下载了一个，奈何这个工具是一个exe格式的，我用7z解压后发现其实里面只是一个excel和一个license文件，license还只能够放在C盘，并且还过期了。
 
