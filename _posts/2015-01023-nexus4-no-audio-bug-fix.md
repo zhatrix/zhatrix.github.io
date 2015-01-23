@@ -19,7 +19,7 @@ Android 5.0.1
 
 *禁用所有check开头的服务，需要root（没有尝试）  
 禁用GMS checkin service，但据说禁用后会增大电量的消耗，所以建议禁用所有checkin开头的服务
-
+[讨论地址](https://www.reddit.com/r/nexus4/comments/2p3dl1/no_voiceaudio_in_calls/)
 
 ###最后
 
