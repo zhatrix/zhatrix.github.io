@@ -1,12 +1,13 @@
 ---
-layout: index
-title: 时间的空间
+layout: default
+title: Blog Posts
 ---
 
-<ul class="list-group">
-
-{% for post in site.posts %}
- <li class="list-group-item title">{{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-
-</ul>
+<div id="home">
+  <h2><i class="fa fa-bookmark"></i> Blog Posts</h2>
+  <ul id="blog-posts" class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
