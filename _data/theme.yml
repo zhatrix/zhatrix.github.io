@@ -5,7 +5,7 @@ highlight_color: '#3498db'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
-  github: swanson
+  github: zhatrix
   #bitbucket: philipj
   #hacker_news: swanson
   #stackexchange: 348619
@@ -15,15 +15,15 @@ social:
   #tumblr: animalygifs
   #linkedin: philipjagielski
   #gplus: 110552447039675960964
-  #gravatar: 86e6ff8f75f9daef42d53b7f8002fd95
+  gravatar: 632d96102e22a8294304088e84a5e0c8
 
 # "Hi, I'm _______"
 name: Zhatrix
 email: zhatrix@gmail.com
-tagline: "????"
+tagline: "自在由心"
 
 # Google Analytics key, leave blank to ignore
-google_analytics_key: UA-xxxx-x
+google_analytics_key: UA-59007361-1
 
 # Toggle "Postings are my own" disclaimer in footer
 show_disclaimer: true
