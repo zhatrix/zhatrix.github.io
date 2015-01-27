@@ -1,6 +1,6 @@
 ---
 title: 导航
-layout: default
+layout: start
 ---
 
 **常用网站**

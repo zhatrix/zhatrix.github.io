@@ -1,38 +1,40 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.data.theme.name }} - {{ page.title }}</title>
-  <meta name="author" content="{{ site.data.theme.name }}" />
-  <meta name="description" content="The blog of {{ site.data.theme.name }}" />
-  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
 
-  <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
-  <link rel="shortcut icon" href="/favicon.png">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.data.theme.name }}" href="{{site.url}}/atom.xml" />
-
-  <link rel="stylesheet" href="/assets/css/all.css">
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="http://www.zhatrix.com/main.css" rel="stylesheet" type="text/css">
+    <link title="Atom feed" href="/atom.xml" type="application/atom+xml" rel="alternate">
+    <link title="RSS Feed" href="/rss.xml" rel="alternate" type="application/rss+xml" >
+    <link href="http://www.zhatrix.com/favicon.ico" rel="shortcut icon">
+    <title>{{ page.title }}</title>
+    
 </head>
+
 <body>
-  <div class="container">
-    <div class="four columns sidebar">
-      {% include sidebar.html %}
-    </div>
 
-    <div class="eleven columns content">
-      {{ content }}
+<h2>{{ page.title }}</h2>
 
-      <div class="footer">
-        {% include footer.html %}
-      </div>
-    </div>
-  </div>
+{{ content }}
 
-{% include analytics.html %}
+<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}" data-url="http://zhatrix.com{{ page.url }}"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"zhatrix"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+
 </body>
+
 </html>
+
+
