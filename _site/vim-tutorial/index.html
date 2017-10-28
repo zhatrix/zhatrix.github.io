@@ -1,0 +1,370 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.6.0 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Vim的简单用法 - 时间的空间</title>
+
+
+
+
+<meta name="description" content="快捷键">
+
+
+
+
+<meta name="author" content="zhatrix">
+
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="时间的空间">
+<meta property="og:title" content="Vim的简单用法">
+
+
+  <link rel="canonical" href="http://localhost:4000/blog/vim-tutorial/">
+  <meta property="og:url" content="http://localhost:4000/blog/vim-tutorial/">
+
+
+
+  <meta property="og:description" content="快捷键">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2014-06-10T00:00:00+08:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "zHaTriX",
+      "url" : "http://localhost:4000/blog",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/blog/feed.xml" type="application/atom+xml" rel="alternate" title="时间的空间 Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/blog/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--default">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="http://localhost:4000/blog/">时间的空间</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">Quick-Start Guide</a></li>
+          
+        </ul>
+        <button type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <h2 id="快捷键">快捷键</h2>
+
+<h3 id="movement">Movement</h3>
+<ul>
+  <li><code class="highlighter-rouge">h</code>  - Move <em>left</em></li>
+  <li><code class="highlighter-rouge">j</code>  - Move <em>down</em></li>
+  <li><code class="highlighter-rouge">k</code>  - Move <em>up</em></li>
+  <li><code class="highlighter-rouge">l</code>  - Move <em>right</em></li>
+  <li><code class="highlighter-rouge">0</code>  - Move to <em>beginging</em> of line, 也可以使用 <code class="highlighter-rouge">Home</code>.</li>
+  <li><code class="highlighter-rouge">^</code>  - 在有tab或space的代码行里, <code class="highlighter-rouge">0</code>是移到最行首, 而<code class="highlighter-rouge">^</code>是移到代码行首</li>
+  <li><code class="highlighter-rouge">$</code>  - Move to <em>end</em> of line</li>
+  <li><code class="highlighter-rouge">gg</code> - Move to <em>first</em> line of file</li>
+  <li><code class="highlighter-rouge">G</code>  - Move to <em>last</em> line of file</li>
+  <li><code class="highlighter-rouge">ngg</code>- 移动到指定的第n行, 也可以用<code class="highlighter-rouge">nG</code></li>
+  <li><code class="highlighter-rouge">g_</code> - 到本行最后一个不是blank字符的位置</li>
+  <li><code class="highlighter-rouge">w</code>  - Move <em>forward</em> to next word</li>
+  <li><code class="highlighter-rouge">e</code>  - 到下一个单词的结尾</li>
+  <li><code class="highlighter-rouge">b</code>  - Move <em>backward</em> to next word</li>
+  <li><code class="highlighter-rouge">%</code>  - 在匹配的括号、块的首尾移动</li>
+  <li><code class="highlighter-rouge">C-o</code>- 返回到上次移动前的位置, 也可以用两个单引号<code class="highlighter-rouge">'</code></li>
+  <li><code class="highlighter-rouge">C-i</code>- 前进到后一次移动的位置</li>
+  <li><code class="highlighter-rouge">f</code>  - 后接字符，移动到当前行的下一个指定字符，然后按<code class="highlighter-rouge">;</code>继续搜索下一个</li>
+  <li><code class="highlighter-rouge">fa</code> - 到下一个为a的字符处，也可以fs到下一个为s的字符处</li>
+  <li><code class="highlighter-rouge">F</code>  - 同上，移动到上一个</li>
+  <li><code class="highlighter-rouge">|</code>  - 竖线，前接数字，移动到当前行的指定列，如<code class="highlighter-rouge">30|</code>，移动到当前行的第30列</li>
+</ul>
+
+<h3 id="search">Search</h3>
+<ul>
+  <li><code class="highlighter-rouge">*</code>     - Search <em>forward</em> for word under cursor</li>
+  <li><code class="highlighter-rouge">#</code>     - Search <em>backward</em> for word under curor</li>
+  <li><code class="highlighter-rouge">%</code>     - 匹配括号移动，包括 <code class="highlighter-rouge">(, {, [</code>. （陈皓注：你需要把光标先移到括号上）</li>
+  <li><code class="highlighter-rouge">/word</code> - Search <em>forward</em> for <em>word</em>. Support <em>RE</em></li>
+  <li><code class="highlighter-rouge">?word</code> - Search <em>backward</em> for <em>word</em>. Support <em>RE</em></li>
+  <li><code class="highlighter-rouge">n</code>     - Repeat the last <code class="highlighter-rouge">/</code> or <code class="highlighter-rouge">?</code> command</li>
+  <li><code class="highlighter-rouge">N</code>     - Repeat the last <code class="highlighter-rouge">/</code> or <code class="highlighter-rouge">?</code> command in opposite direction</li>
+</ul>
+
+<p>在搜索后, 被搜索的单词都会高亮, 一般想取消那些高亮的单词, 可以再次搜索随便输入一些字母, 搜索不到自然就取消了. 另外也可以使用 <code class="highlighter-rouge">nohl</code> 取消这些被高亮的词.</p>
+
+<h3 id="deletion">Deletion</h3>
+<ul>
+  <li><code class="highlighter-rouge">x</code>  - Delete character <em>forward</em>(under cursor), and remain in normal mode</li>
+  <li><code class="highlighter-rouge">X</code>  - Delete character <em>backward</em>(before cursor), and remain in normal mode</li>
+  <li><code class="highlighter-rouge">r</code>  - Replace single character under cursor, and remain in normal mode</li>
+  <li><code class="highlighter-rouge">s</code>  - Delete single character under cursor, and <em>switch</em> to insert mode</li>
+  <li><code class="highlighter-rouge">shift+~</code> - 这个可以把光标下的单词转换为大写/小写, 并自动移到下一个字符</li>
+  <li><code class="highlighter-rouge">dw</code> - Delete a <em>word</em> forward</li>
+  <li><code class="highlighter-rouge">daw</code>- 上面的<code class="highlighter-rouge">dw</code>是删除一个单词的前向部分, 而这个是删除整个单词, 不论cursor是否在单词中间</li>
+  <li><code class="highlighter-rouge">db</code> - Delete a <em>word</em> backward</li>
+  <li><code class="highlighter-rouge">dd</code> - Delete <em>entire</em> current line</li>
+  <li><code class="highlighter-rouge">D</code>  - Delete until end of line</li>
+</ul>
+
+<h3 id="yank--put">Yank &amp; Put</h3>
+<ul>
+  <li><code class="highlighter-rouge">y</code>   - Yank(copy)</li>
+  <li><code class="highlighter-rouge">yy</code>  - Yank current line</li>
+  <li><code class="highlighter-rouge">nyy</code> - Yank <code class="highlighter-rouge">n</code> lines form current line</li>
+  <li><code class="highlighter-rouge">p</code>   - Put(paste) yanked text <em>below</em> current line</li>
+  <li><code class="highlighter-rouge">P</code>   - Put(paste) yanked text <em>above</em> current line</li>
+</ul>
+
+<h3 id="insert-mode">Insert Mode</h3>
+<ul>
+  <li><code class="highlighter-rouge">i</code> - Enter insert mode to the <em>left</em> of the cursor</li>
+  <li><code class="highlighter-rouge">a</code> - Enter insert mode to the <em>right</em> of the cursor</li>
+  <li><code class="highlighter-rouge">o</code> - Enter insert mode to the line <em>below</em> the current line</li>
+  <li><code class="highlighter-rouge">O</code> - Enter insert mode to the line <em>above</em> the current line</li>
+  <li><code class="highlighter-rouge">cw</code> - 替换从光标所在位置后到一个单词结尾的字符</li>
+</ul>
+
+<h3 id="visual-mode">Visual Mode</h3>
+<ul>
+  <li><code class="highlighter-rouge">v</code>   - Enter visual mode, highlight characters</li>
+  <li><code class="highlighter-rouge">V</code>   - Enter visual mode, highlight lines</li>
+  <li><code class="highlighter-rouge">C-v</code> - Enter visual mode, highlight block</li>
+</ul>
+
+<h3 id="other">Other</h3>
+<ul>
+  <li><code class="highlighter-rouge">u</code>   - Undo</li>
+  <li><code class="highlighter-rouge">U</code>   - Undo all changes on current line</li>
+  <li><code class="highlighter-rouge">C-r</code> - Redo</li>
+  <li><code class="highlighter-rouge">gU</code>  - 变大写</li>
+  <li><code class="highlighter-rouge">gu</code>  - 变小写</li>
+</ul>
+
+<h3 id="repeat">repeat</h3>
+<ul>
+  <li><code class="highlighter-rouge">.</code> - (小数点) 可以重复上一次的命令</li>
+  <li><code class="highlighter-rouge">N&lt;command&gt;</code> - 重复某个命令N此，N代表数字</li>
+</ul>
+
+<h3 id="opensavequitbuffer改变文件">open/save/quit/buffer(改变文件)</h3>
+<ul>
+  <li><code class="highlighter-rouge">:e</code> - &lt;path/to/file&gt; 打开一个文件</li>
+  <li><code class="highlighter-rouge">:w</code> - 存盘</li>
+  <li><code class="highlighter-rouge">:wq</code>,<code class="highlighter-rouge">ZZ</code>or<code class="highlighter-rouge">:x</code> - 存盘后退出 w后可以跟文件名</li>
+  <li>`:saveas &lt;path/to/file&gt; - 另存为 &lt;path/to/file&gt;</li>
+  <li><code class="highlighter-rouge">:q!</code> - 退出不保存</li>
+  <li><code class="highlighter-rouge">:qa!</code> - 强行退出所有的正在编辑的文件，就算别的文件有更改</li>
+  <li><code class="highlighter-rouge">:bn</code> or <code class="highlighter-rouge">:bp</code> - 你可以同时打开很多文件，使用这两个命令来切换下一个或上一个文件</li>
+</ul>
+
+<h3 id="read-more">Read More</h3>
+
+<ul>
+  <li><a href="http://eastcoastefx.vaesite.com/vim">A handy guide to Vim shortcuts</a></li>
+  <li><a href="http://www.tuxfiles.org/linuxhelp/vimcheat.html">tuxfiles-vimcheat</a></li>
+  <li><a href="http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim">What is your most productive shortcut with Vim?</a></li>
+</ul>
+
+<h2 id="技巧">技巧</h2>
+
+<h3 id="shell多行注释">shell多行注释</h3>
+
+<p>命令行模式下，注释掉line1与line2之间的行</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>line1,line2s/^/#/g
+</code></pre></div></div>
+
+<h3 id="自动补全">自动补全</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ctrl+n Ctrl+p
+Ctrl+x Ctrl+?{....}
+</code></pre></div></div>
+
+<h3 id="左右分割打开help文档">左右分割打开help文档</h3>
+
+<p>默认是上下分割来打开文档，但是对于宽屏，左右分割反而更加方便</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:vert help xxx
+</code></pre></div></div>
+
+<h3 id="逐个替换">逐个替换</h3>
+
+<p>全文直接替换:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:%s/old_str/new_str/g
+</code></pre></div></div>
+
+<p>加上参数c可以逐个替换，这样可以对每一个再确认:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:%s/old_str/new_str/gc
+</code></pre></div></div>
+
+<h3 id="关于-searchreplace-中的换行符">关于 search/replace 中的换行符</h3>
+
+<p>Search:</p>
+
+<p><code class="highlighter-rouge">\n</code> is <code class="highlighter-rouge">newline</code>, <code class="highlighter-rouge">\r</code> is <code class="highlighter-rouge">CR</code>(carriage return = Ctrl-M = ^M)</p>
+
+<p>Replace:</p>
+
+<p><code class="highlighter-rouge">\r</code> is newline, <code class="highlighter-rouge">\n</code> is a null byte(0x00)</p>
+
+<p>比如字符串 test1,test2,test3 把逗号换成换行：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>%s/,/\r/g
+</code></pre></div></div>
+
+<h3 id="参考">参考:</h3>
+
+<ul>
+  <li><a href="http://coolshell.cn/articles/5426.html">简明 Vim 练级攻略</a></li>
+  <li><a href="http://wiki.tankywoo.com/tool/vim.html">VIM</a></li>
+  <li><a href="http://stackoverflow.com/questions/71323/how-to-replace-a-character-for-a-newline-in-vim">How to replace a character for a newline in Vim?</a></li>
+  <li><a href="http://stackoverflow.com/questions/71417/why-is-r-a-newline-for-vim">Why is \r a newline for Vim?</a></li>
+  <li><a href="http://stackoverflow.com/questions/594448/how-can-i-add-a-string-to-the-end-of-each-line-in-vim">How can I add a string to the end of each line in Vim?</a></li>
+</ul>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/zhatrix"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="http://localhost:4000/blog/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2017 zHaTriX. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="http://localhost:4000/blog/assets/js/main.min.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
