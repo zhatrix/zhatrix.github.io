@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-10-28T17:14:21+08:00</updated><id>http://localhost:4000/blog/</id><title type="html">时间的空间</title><subtitle>An amazing website.</subtitle><author><name>zhatrix</name><email>zhatrix#gmail</email></author><entry><title type="html">Jekyll_install_and_use</title><link href="http://localhost:4000/blog/jekyll_install_and_use/" rel="alternate" type="text/html" title="Jekyll_install_and_use" /><published>2017-10-28T00:00:00+08:00</published><updated>2017-10-28T00:00:00+08:00</updated><id>http://localhost:4000/blog/jekyll_install_and_use</id><content type="html" xml:base="http://localhost:4000/blog/jekyll_install_and_use/">&lt;h1 id=&quot;jekyll的安装使用&quot;&gt;jekyll的安装使用&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>The blog of </title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000"/>
+ <updated>2017-10-28T17:14:21+08:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Jekyll_install_and_use</title>
+   <link href="http://localhost:4000/jekyll_install_and_use/"/>
+   <updated>2017-10-28T00:00:00+08:00</updated>
+   <id>http://localhost:4000/jekyll_install_and_use</id>
+   <content type="html">&lt;h1 id=&quot;jekyll的安装使用&quot;&gt;jekyll的安装使用&lt;/h1&gt;
 
 &lt;h2 id=&quot;一搭建环境&quot;&gt;一、搭建环境&lt;/h2&gt;
 
@@ -223,7 +242,17 @@ $ bundle exec jekyll serve
 jekyll build
 ## 开启jekyll本地预览
 jekyll server
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>zhatrix</name><email>zhatrix#gmail</email></author><summary type="html">jekyll的安装使用</summary></entry><entry><title type="html">Homebrew Tips</title><link href="http://localhost:4000/blog/homebrew-tips/" rel="alternate" type="text/html" title="Homebrew Tips" /><published>2017-10-28T00:00:00+08:00</published><updated>2017-10-28T00:00:00+08:00</updated><id>http://localhost:4000/blog/homebrew-tips</id><content type="html" xml:base="http://localhost:4000/blog/homebrew-tips/">&lt;p&gt;#Mac 如何升级软件-HomeBrew的使用&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Homebrew Tips</title>
+   <link href="http://localhost:4000/homebrew-tips/"/>
+   <updated>2017-10-28T00:00:00+08:00</updated>
+   <id>http://localhost:4000/homebrew-tips</id>
+   <content type="html">&lt;p&gt;#Mac 如何升级软件-HomeBrew的使用&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;brew update          # 更新 Homebrew 的信息
@@ -231,7 +260,17 @@ jekyll server
   brew upgrade &lt;xxx&gt;   # 如果不是所有的都要升级，那就这样升级指定的&lt;/xxx&gt;&lt;/p&gt;
 
   &lt;p&gt;brew upgrade; brew cleanup    # 如果都要升级，直接升级完然后清理干净&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>zhatrix</name><email>zhatrix#gmail</email></author><summary type="html">#Mac 如何升级软件-HomeBrew的使用</summary></entry><entry><title type="html">Vba String Replace And Modify Code</title><link href="http://localhost:4000/blog/VBA-string-replace-and-modify-code/" rel="alternate" type="text/html" title="Vba String Replace And Modify Code" /><published>2017-01-13T00:00:00+08:00</published><updated>2017-01-13T00:00:00+08:00</updated><id>http://localhost:4000/blog/VBA-string-replace-and-modify-code</id><content type="html" xml:base="http://localhost:4000/blog/VBA-string-replace-and-modify-code/">&lt;h1 id=&quot;vba中字符处理函数和替换函数的使用&quot;&gt;VBA中字符处理函数和替换函数的使用&lt;/h1&gt;
+&lt;/blockquote&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Vba String Replace And Modify Code</title>
+   <link href="http://localhost:4000/VBA-string-replace-and-modify-code/"/>
+   <updated>2017-01-13T00:00:00+08:00</updated>
+   <id>http://localhost:4000/VBA-string-replace-and-modify-code</id>
+   <content type="html">&lt;h1 id=&quot;vba中字符处理函数和替换函数的使用&quot;&gt;VBA中字符处理函数和替换函数的使用&lt;/h1&gt;
 
 &lt;h2 id=&quot;替换函数repalce的用法&quot;&gt;替换函数repalce的用法&lt;/h2&gt;
 
@@ -384,7 +423,17 @@ MidWords = Mid(MyString, 5)    ‘返回 “Funcion Demo”&lt;/p&gt;
 
 &lt;/blockquote&gt;
 
-&lt;p&gt;参考链接&lt;a href=&quot;http://www.51testing.com/html/19/226119-212209.html&quot;&gt;在VBA中处理字符串常用的函数&lt;/a&gt;&lt;/p&gt;</content><author><name>zhatrix</name><email>zhatrix#gmail</email></author><summary type="html">VBA中字符处理函数和替换函数的使用</summary></entry><entry><title type="html">nexus 4 电话无声音修复方式</title><link href="http://localhost:4000/blog/nexus4-no-audio-bug-fix/" rel="alternate" type="text/html" title="nexus 4 电话无声音修复方式" /><published>2015-01-23T00:00:00+08:00</published><updated>2015-01-23T00:00:00+08:00</updated><id>http://localhost:4000/blog/nexus4-no-audio-bug-fix</id><content type="html" xml:base="http://localhost:4000/blog/nexus4-no-audio-bug-fix/">&lt;p&gt;###问题描述
+&lt;p&gt;参考链接&lt;a href=&quot;http://www.51testing.com/html/19/226119-212209.html&quot;&gt;在VBA中处理字符串常用的函数&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>nexus 4 电话无声音修复方式</title>
+   <link href="http://localhost:4000/nexus4-no-audio-bug-fix/"/>
+   <updated>2015-01-23T00:00:00+08:00</updated>
+   <id>http://localhost:4000/nexus4-no-audio-bug-fix</id>
+   <content type="html">&lt;p&gt;###问题描述
 谷歌四儿子在待机几个小时后做被叫能够听到铃声，接听后没有声音，对方也听不到声音，做主叫打给对方时听不到对方的响铃，对方接听后也是无声音，重启后正常。&lt;/p&gt;
 
 &lt;p&gt;Android 5.0.1&lt;br /&gt;
@@ -404,7 +453,16 @@ MidWords = Mid(MyString, 5)    ‘返回 “Funcion Demo”&lt;/p&gt;
 
 &lt;p&gt;该问题在Google的Nexus论坛上很多人反馈，但是Google貌似没有给出解决方法或者解决bug的计划&lt;/p&gt;
 
-&lt;p&gt;自从四儿子升级到5.0.1之后不但接打电话没声音，还经常重启，在考虑要不要换成其他系统了，表示已经受够了&lt;/p&gt;</content><author><name>zhatrix</name><email>zhatrix#gmail</email></author><summary type="html">###问题描述 谷歌四儿子在待机几个小时后做被叫能够听到铃声，接听后没有声音，对方也听不到声音，做主叫打给对方时听不到对方的响铃，对方接听后也是无声音，重启后正常。</summary></entry><entry><title type="html">破解VBA密码</title><link href="http://localhost:4000/blog/vba-password-crack/" rel="alternate" type="text/html" title="破解VBA密码" /><published>2014-12-20T00:00:00+08:00</published><updated>2014-12-20T00:00:00+08:00</updated><id>http://localhost:4000/blog/vba-password-crack</id><content type="html" xml:base="http://localhost:4000/blog/vba-password-crack/">&lt;p&gt;最近工作需要转换华为TD的MML原始数据，自己原来有的一个版本相对较老了，在&lt;a href=&quot;www.mscbsc.com&quot;&gt;mscbsc&lt;/a&gt;下载了一个，奈何这个工具是一个exe格式的，我用7z解压后发现其实里面只是一个excel和一个license文件，license还只能够放在C盘，并且还过期了。&lt;/p&gt;
+&lt;p&gt;自从四儿子升级到5.0.1之后不但接打电话没声音，还经常重启，在考虑要不要换成其他系统了，表示已经受够了&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>破解VBA密码</title>
+   <link href="http://localhost:4000/vba-password-crack/"/>
+   <updated>2014-12-20T00:00:00+08:00</updated>
+   <id>http://localhost:4000/vba-password-crack</id>
+   <content type="html">&lt;p&gt;最近工作需要转换华为TD的MML原始数据，自己原来有的一个版本相对较老了，在&lt;a href=&quot;www.mscbsc.com&quot;&gt;mscbsc&lt;/a&gt;下载了一个，奈何这个工具是一个exe格式的，我用7z解压后发现其实里面只是一个excel和一个license文件，license还只能够放在C盘，并且还过期了。&lt;/p&gt;
 
 &lt;p&gt;在没有办法的情况下，只有自己hack了，发现可以通过更改日期继续使用，但毕竟这样使用不怎么方便。由于该程序是由VBA编写而成的，必须打开excel才能够使用，遂向通过打开VBA工程，查看license的方法，但是VBA工程存在密码，这样的情况下，只能先破解VBA密码解决了。&lt;/p&gt;
 
@@ -471,7 +529,16 @@ If Protect = False Then
   End If
 Close #1
 End Sub
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>zhatrix</name><email>zhatrix#gmail</email></author><summary type="html">最近工作需要转换华为TD的MML原始数据，自己原来有的一个版本相对较老了，在mscbsc下载了一个，奈何这个工具是一个exe格式的，我用7z解压后发现其实里面只是一个excel和一个license文件，license还只能够放在C盘，并且还过期了。</summary></entry><entry><title type="html">喜欢的一些句子</title><link href="http://localhost:4000/blog/lovely-sentence/" rel="alternate" type="text/html" title="喜欢的一些句子" /><published>2014-06-15T00:00:00+08:00</published><updated>2014-06-15T00:00:00+08:00</updated><id>http://localhost:4000/blog/lovely-sentence</id><content type="html" xml:base="http://localhost:4000/blog/lovely-sentence/">&lt;p&gt;你所有的困惑都是因为读得太少，想得太多。–杨绛&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>喜欢的一些句子</title>
+   <link href="http://localhost:4000/lovely-sentence/"/>
+   <updated>2014-06-15T00:00:00+08:00</updated>
+   <id>http://localhost:4000/lovely-sentence</id>
+   <content type="html">&lt;p&gt;你所有的困惑都是因为读得太少，想得太多。–杨绛&lt;/p&gt;
 
 &lt;p&gt;虽说刀剑确实比言语有力量，但如果只用言语就足以羞辱打击对方，那何必再动用刀剑呢。&lt;/p&gt;
 
@@ -509,7 +576,17 @@ End Sub
 
 &lt;p&gt;不知道喜欢你什么，实在不知道，如果确定知道喜欢你什么，是不够喜欢你。因为不确定具体喜欢你什么，所以喜欢你所有一切及其他。&lt;/p&gt;
 
-&lt;p&gt;别着急什么都去学，把你最喜欢的最擅长的搞精通，就能悟“道”。&lt;/p&gt;</content><author><name>zhatrix</name><email>zhatrix#gmail</email></author><summary type="html">你所有的困惑都是因为读得太少，想得太多。–杨绛</summary></entry><entry><title type="html">Vim的简单用法</title><link href="http://localhost:4000/blog/vim-tutorial/" rel="alternate" type="text/html" title="Vim的简单用法" /><published>2014-06-10T00:00:00+08:00</published><updated>2014-06-10T00:00:00+08:00</updated><id>http://localhost:4000/blog/vim-tutorial</id><content type="html" xml:base="http://localhost:4000/blog/vim-tutorial/">&lt;h2 id=&quot;快捷键&quot;&gt;快捷键&lt;/h2&gt;
+&lt;p&gt;别着急什么都去学，把你最喜欢的最擅长的搞精通，就能悟“道”。&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Vim的简单用法</title>
+   <link href="http://localhost:4000/vim-tutorial/"/>
+   <updated>2014-06-10T00:00:00+08:00</updated>
+   <id>http://localhost:4000/vim-tutorial</id>
+   <content type="html">&lt;h2 id=&quot;快捷键&quot;&gt;快捷键&lt;/h2&gt;
 
 &lt;h3 id=&quot;movement&quot;&gt;Movement&lt;/h3&gt;
 &lt;ul&gt;
@@ -679,7 +756,16 @@ Ctrl+x Ctrl+?{....}
   &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/71323/how-to-replace-a-character-for-a-newline-in-vim&quot;&gt;How to replace a character for a newline in Vim?&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/71417/why-is-r-a-newline-for-vim&quot;&gt;Why is \r a newline for Vim?&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/594448/how-can-i-add-a-string-to-the-end-of-each-line-in-vim&quot;&gt;How can I add a string to the end of each line in Vim?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>zhatrix</name><email>zhatrix#gmail</email></author><summary type="html">快捷键</summary></entry><entry><title type="html">如何正确的访问Google</title><link href="http://localhost:4000/blog/visit-google/" rel="alternate" type="text/html" title="如何正确的访问Google" /><published>2014-06-09T00:00:00+08:00</published><updated>2014-06-09T00:00:00+08:00</updated><id>http://localhost:4000/blog/visit-google</id><content type="html" xml:base="http://localhost:4000/blog/visit-google/">&lt;p&gt;不知道是不是因为离某个节日较近的原因，导致最近两周无法访问的Google了，作为没有Google
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>如何正确的访问Google</title>
+   <link href="http://localhost:4000/visit-google/"/>
+   <updated>2014-06-09T00:00:00+08:00</updated>
+   <id>http://localhost:4000/visit-google</id>
+   <content type="html">&lt;p&gt;不知道是不是因为离某个节日较近的原因，导致最近两周无法访问的Google了，作为没有Google
 就不知道如何搜索的人，这是不能容忍的，为了可以正常的访问找到了以下几种不折腾的方式：&lt;/p&gt;
 
 &lt;ul&gt;
@@ -712,7 +798,17 @@ Ctrl+x Ctrl+?{....}
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;最后看完请不要告诉其他人&lt;/p&gt;</content><author><name>zhatrix</name><email>zhatrix#gmail</email></author><summary type="html">不知道是不是因为离某个节日较近的原因，导致最近两周无法访问的Google了，作为没有Google 就不知道如何搜索的人，这是不能容忍的，为了可以正常的访问找到了以下几种不折腾的方式：</summary></entry><entry><title type="html">在win7上使用Bundle管理VIM插件</title><link href="http://localhost:4000/blog/vim-tips/" rel="alternate" type="text/html" title="在win7上使用Bundle管理VIM插件" /><published>2013-11-12T00:00:00+08:00</published><updated>2013-11-12T00:00:00+08:00</updated><id>http://localhost:4000/blog/vim-tips</id><content type="html" xml:base="http://localhost:4000/blog/vim-tips/">&lt;p&gt;把Vundle管理的插件放在VIM安装目录，需要在把_bundles.vim_
+&lt;p&gt;最后看完请不要告诉其他人&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>在win7上使用Bundle管理VIM插件</title>
+   <link href="http://localhost:4000/vim-tips/"/>
+   <updated>2013-11-12T00:00:00+08:00</updated>
+   <id>http://localhost:4000/vim-tips</id>
+   <content type="html">&lt;p&gt;把Vundle管理的插件放在VIM安装目录，需要在把_bundles.vim_
 开头的&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`call vundle#rc()`
@@ -726,7 +822,16 @@ Ctrl+x Ctrl+?{....}
 &lt;p&gt;需要在vimrc 文件的开头，定义bundles.vim&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`source $VIM/path/to/bundles.vim`
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>zhatrix</name><email>zhatrix#gmail</email></author><summary type="html">把Vundle管理的插件放在VIM安装目录，需要在把_bundles.vim_ 开头的</summary></entry><entry><title type="html">建立github blog注意项</title><link href="http://localhost:4000/blog/gitbub_tips/" rel="alternate" type="text/html" title="建立github blog注意项" /><published>2013-10-26T00:00:00+08:00</published><updated>2013-10-26T00:00:00+08:00</updated><id>http://localhost:4000/blog/gitbub_tips</id><content type="html" xml:base="http://localhost:4000/blog/gitbub_tips/">&lt;p&gt;&lt;strong&gt;建立blog时的注意项&lt;/strong&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>建立github blog注意项</title>
+   <link href="http://localhost:4000/gitbub_tips/"/>
+   <updated>2013-10-26T00:00:00+08:00</updated>
+   <id>http://localhost:4000/gitbub_tips</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;建立blog时的注意项&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -739,4 +844,9 @@ Ctrl+x Ctrl+?{....}
   &lt;li&gt;
     &lt;p&gt;所有文件建议使用utf8编码，及注意使用无BOM格式编码&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>zhatrix</name><email>zhatrix#gmail</email></author><summary type="html">建立blog时的注意项</summary></entry></feed>
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

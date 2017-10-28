@@ -76,16 +76,16 @@ social:
 
 # Analytics
 analytics:
-  provider               : true # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-59007361-1
+    tracking_id          :
 
 
 # Site Author
 author:
   name             : "zhatrix"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "知识迷宫的机器人"
+  bio              : "知识迷宫穿梭的机器人"
   location         : "杭州"
   email            : "zhatrix#gmail"
   uri              :
