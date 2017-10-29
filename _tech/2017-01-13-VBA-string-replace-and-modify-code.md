@@ -1,4 +1,8 @@
-# VBA中字符处理函数和替换函数的使用
+---
+title: VBA中字符处理函数和替换函数的使用 
+layout: single
+toc: true
+---
 
 ## 替换函数repalce的用法
 

@@ -1,4 +1,8 @@
-#Mac 如何升级软件-HomeBrew的使用
+---
+title: Mac 如何升级软件-HomeBrew的使用
+layout: single
+toc: true
+---
 
 >   brew update          # 更新 Homebrew 的信息
 >   brew outdated        # 看一下哪些软件可以升级

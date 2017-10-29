@@ -1,6 +1,6 @@
 ---
 title: Vim的简单用法
-layout: default
+layout: single
 ---
 
 ## 快捷键 ##

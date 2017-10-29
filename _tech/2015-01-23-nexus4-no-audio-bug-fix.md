@@ -1,6 +1,6 @@
 ---
 title: nexus 4 电话无声音修复方式  
-layout: default   
+layout: single
 ---
 
 ###问题描述
@@ -8,7 +8,7 @@ layout: default
 
 Android 5.0.1  
 版本后：LRX22C  
-  
+
 ###解决方法
 
 *关闭Nuplayer  

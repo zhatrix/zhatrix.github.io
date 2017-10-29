@@ -1,4 +1,8 @@
-# jekyll的安装使用
+---
+title: jekyll的安装使用
+layout: single
+toc: true
+---
 
 ## 一、搭建环境
 
@@ -219,7 +223,7 @@ Done installing documentation for public_suffix, addressable, colorator, rb-fsev
 jekyll 3.6.2
 ```
 
-### 新建站点
+2.2 ### 新建站点
 
 ```
 jekyll new  blog-name
