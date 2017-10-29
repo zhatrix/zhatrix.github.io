@@ -6,7 +6,7 @@ main:
     url: /year-archive/
   - title: "技术"
     url: /tech-archive/
-  - title: "关于"
-    url: /about/
+  - title: "联系"
+    url: /contact/
   - title: "Site"
     url: /start/start.html

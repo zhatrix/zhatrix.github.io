@@ -40,10 +40,6 @@
 <loc>http://localhost:4000/_pages/404/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/about/</loc>
-<lastmod>2017-10-21T00:43:30+08:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/archive-layout-with-content/</loc>
 </url>
 <url>
@@ -51,6 +47,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/collection-archive/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/contact/</loc>
+<lastmod>2017-10-30T09:34:30+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
