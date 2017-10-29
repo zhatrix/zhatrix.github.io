@@ -1,0 +1,140 @@
+﻿<html lang="zh-CN"><head>
+	<meta charset="UTF-8">
+	<title>Start Page</title>
+	<link href="style.css" media="screen" type="text/css" rel="stylesheet">
+	<link href="/favicon.ico" rel="shortcut icon">
+
+    <script>try {  for(var lastpass_iter=0; lastpass_iter &lt; document.forms.length; lastpass_iter++){    var lastpass_f = document.forms[lastpass_iter];    if(typeof(lastpass_f.lpsubmitorig)=="undefined"){      if (typeof(lastpass_f.submit) == "function") {        lastpass_f.lpsubmitorig = lastpass_f.submit;        lastpass_f.submit = function(){          var form = this;          try {            if (document.documentElement &amp;&amp; 'createEvent' in document)            {              var forms = document.getElementsByTagName('form');              for (var i=0 ; i&lt;forms.length ; ++i)                if (forms[i]==form)                {                  var element = document.createElement('lpformsubmitdataelement');                  element.setAttribute('formnum',i);                  element.setAttribute('from','submithook');                  document.documentElement.appendChild(element);                  var evt = document.createEvent('Events');                  evt.initEvent('lpformsubmit',true,false);                  element.dispatchEvent(evt);                  break;                }            }          } catch (e) {}          try {            form.lpsubmitorig();          } catch (e) {}        }      }    }  }} catch (e) {}
+    </script>
+</head>
+<body>
+	<div id="Root">
+		<strong style="color: #999"><img align="absmiddle" style="margin-top: -4px;" src="icon.png"> Start Page</strong>
+		<div class="sep"></div>
+		<form action="https://www.google.com/ncr" method="get" target="_blank">
+		<input type="hidden" value="1" name="forid">
+		<input type="hidden" value="UTF-8" name="ie">
+		<input type="hidden" value="en-US" name="hl">
+		<input type="text" class="sl" id="google" name="q"> <input type="submit" class="super normal button" value="Google Search">
+		</form>
+		<div class="sep"></div>
+        
+		<div class="column">
+			<div class="column_title">MOST VISITED</div>
+			<ul class="nav">
+				<li><a target="_blank" href="https://www.v2ex.com/">V2ex</a></li>
+				<li><a target="_blank" href="https://www.github.com/">GitHub</a></li>
+                <li><a target="_blank" href="https://www.google.com/ncr">Google</a></li>
+				<li><a target="_blank" href="http://map.baidu.com/">百度地图</a></li>
+				<li><a target="_blank" href="http://www.douban.fm/">豆瓣电台</a></li>
+				<li><a target="_blank" href="http://www.douban.com/">豆瓣</a></li>
+                <li><a target="_blank" href="http://www.zhihu.com/">知乎</a></li>
+                <li><a target="_blank" href="http://music.163.com/">网易音乐</a></li>
+                <li><a target="_blank" href="http://www.twitter.com/">Twitter</a></li>
+				<li><a target="_blank" href="http://t.sina.com.cn/">新浪微博</a></li>
+				<li><a target="_blank" href="http://www.mscbsc.com/bbs//"><strong>mscbsc</strong></a></li>
+			</ul>
+		</div>
+		<div class="column">
+			<div class="column_title">GEEK</div>
+			<ul class="nav">
+				<li><a target="_blank" href="http://news.mydrivers.com/blog/">驱动之家</a></li>
+				<li><a target="_blank" href="http://www.lifehacker.com/">Lifehacker</a></li>
+				<li><a target="_blank" href="http://www.engadget.com/">Engadget</a></li>
+				<li><a target="_blank" href="http://www.wired.com/gadgetlab/">Gadget Lab</a></li>
+				<li><a target="_blank" href="http://www.tektalk.org/">弯曲评论</a></li>
+                <li><a target="_blank" href="http://www.wooyun.org/">WooYun</a></li>
+			</ul>
+		</div>
+
+		<div class="column">
+			<div class="column_title">PROGRAM</div>
+			<ul class="nav">
+				<li><a target="_blank" href="https://www.python.org/">Python</a></li>
+				<li><a target="_blank" href="https://www.djangoproject.com/">Django</a></li>
+				<li><a target="_blank" href="http://flask.pocoo.org/">flask</a></li>
+                <li><a target="_blank" href="http://www.r-project.org/"><strong>R</strong></a></li>
+                <li><a target="_blank" href="http://www.vim.org/">VIM</a></li>
+				<li><a target="_blank" href="http://www.appinn.com/">小众软件</a></li>
+			</ul>
+		</div>
+        <div class="column">
+			<div class="column_title">DATA</div>
+			<ul class="nav">
+				<li><a target="_blank" href="http://www.itongji.cn//">中国统计网</a></li>
+				<li><a target="_blank" href="http://bbs.pinggu.org/">人大经济论坛</a></li>
+			</ul>
+		</div>
+        
+        <div class="column">
+			<div class="column_title">LEANNING</div>
+			<ul class="nav">
+                <li><a target="_blank" href="https://www.coursera.org/">Coursera</a></li>
+                <li><a target="_blank" href="http://study.163.com/">网易云教育</a></li>
+                <li><a target="_blank" href="http://www.udemy.com/">Udemy</a></li>
+				<li><a target="_blank" href="http://www.codecademy.com/">CodeCademy</a></li>
+				<li><a target="_blank" href="http://leetcode.com//">LeetCode</a></li>
+				<li><a target="_blank" href="http://codeforces.com/">Codeforces</a></li>
+                <li><a target="_blank" href="http://www.duobei.com/">多贝网</a></li>
+                <li><a target="_blank" href="http://www.360luobo.com/">萝卜网</a></li>
+                <li><a target="_blank" href="http://www.jisuanke.com/">计蒜客</a></li>
+                <li><a target="_blank" href="http://www.shiyanlou.com/">实验楼</<a></li>
+                <li><a target="_blank" href="http://www.paomianba.com/">泡面吧</a></li>
+                
+			</ul>
+		</div>
+		<div class="column">
+			<div class="column_title">TECH PEOPLE</div>
+			<ul class="nav">
+				<li><a target="_blank" href="http://www.matrix67.com/blog/">Matrix67</a></li>
+				<li><a target="_blank" href="http://www.ruanyifeng.com/">阮一峰</a></li>
+				<li><a target="_blank" href="http://coolshell.cn/">酷壳</a></li>
+				<li><a target="_blank" href="http://www.yangzhiping.com/">阳志平</a></li>
+                <li><a target="_blank" href="http://dbanotes.net/">冯大辉</a></li>
+				<li><a target="_blank" href="http://www.yinwang.org/">王垠</a></li>
+				<li><a target="_blank" href="http://http://mindhacks.cn/">刘未鹏</a></li>
+			</ul>
+		</div>
+        
+        <div class="column">
+			<div class="column_title">READING</div>
+			<ul class="nav">
+                <li><a target="_blank" href="http://www.zreading.cn/">左岸读书</a></li>
+                <li><a target="_blank" href="http://www.jianshu.com/">简书</a></li>
+				<li><a target="_blank" href="http://chuansongme.com/">传送门</a></li>
+				<li><a target="_blank" href="http://wanimal.lofter.com/">WaniMal</a></li>
+				<li><a target="_blank" href="http://www.fotofeel.com/">FotoFeel</a></li>
+				<li><a target="_blank" href="http://www.qiyu.net/">奇遇</a></li>
+			</ul>
+		</div>
+        
+		<div class="column">
+			<div class="column_title">BUY</div>
+			<ul class="nav">
+                <li><a target="_blank" href="http://www.amazon.cn/">亚马逊-中国</a></li>
+				<li><a target="_blank" href="http://www.newegg.com.cn/">新蛋</a></li>
+				<li><a target="_blank" href="http://www.360buy.com/">京东</a></li>
+				<li><a target="_blank" href="http://www.taobao.com/">淘宝</a></li>
+				<li><a target="_blank" href="http://www.alipay.com/">支付宝</a></li>
+				<li><a target="_blank" href="http://www.10010.com/">联通</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="Bottom">&copy; 2015 ZHATRIX - making things easier<br>Powered by GitHub</div>
+    
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+    <script type="text/javascript" src="http://www.google-analytics.com/ga.js"></script>
+
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-59007361-1");
+	pageTracker._setDomainName("none");
+	pageTracker._setAllowLinker(true);
+	pageTracker._trackPageview();
+	} catch(err) {}</script>
+
+</body></html>
