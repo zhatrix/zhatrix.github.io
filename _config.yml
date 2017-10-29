@@ -17,7 +17,7 @@ url                      : "http://zhatrix.com" # the base hostname & protocol f
 baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -76,7 +76,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : true # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : UA-59007361-1
 
@@ -86,7 +86,7 @@ author:
   name             : "张振玉"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "6年通信工程师，2年互联网数据分析师，2年物流SAAS产品经理。"
-  location         : "杭州"
+  location         : "杭州,浙江"
   email            : "i@zhatrix.com"
   uri              : "zhatrix.com"
   bitbucket        :
@@ -179,8 +179,8 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+# paginate: 50 # amount of posts to show
+# paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -199,6 +199,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  # - jekyll-archives
 
 
 # Archives
@@ -218,16 +219,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
 
 # HTML Compression
@@ -247,7 +248,23 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: #true
       comments: # true
-      share: true
+      share: #true
       related: true
+      # sidebar:
+      #   nav: "docs"
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _tech
+  - scope:
+      path: ""
+      type: tech
+    values:
+      layout: single
+      author_profile: true
