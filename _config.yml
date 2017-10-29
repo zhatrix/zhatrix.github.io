@@ -238,6 +238,12 @@ compress_html:
   ignore:
     envs: development
 
+# Collections  分文件夹存笔记
+collections:
+  tech:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -250,20 +256,20 @@ defaults:
       author_profile: true
       read_time: #true
       comments: # true
-      share: #true
+      share: true
       related: true
       # sidebar:
       #   nav: "docs"
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
       author_profile: true
   # _tech
   - scope:
-      path: ""
+      path: "_tech"
       type: tech
     values:
       layout: single

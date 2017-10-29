@@ -19,12 +19,12 @@
 
 
 
-<title>如何正确的访问Google - 学而时习</title>
+<title>建立github blog注意项 - 学而时习</title>
 
 
 
 
-<meta name="description" content="不知道是不是因为离某个节日较近的原因，导致最近两周无法访问的Google了，作为没有Google就不知道如何搜索的人，这是不能容忍的，为了可以正常的访问找到了以下几种不折腾的方式：">
+<meta name="description" content="建立blog时的注意项">
 
 
 
@@ -33,15 +33,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="学而时习">
-<meta property="og:title" content="如何正确的访问Google">
+<meta property="og:title" content="建立github blog注意项">
 
 
-  <link rel="canonical" href="http://localhost:4000/visit-google/">
-  <meta property="og:url" content="http://localhost:4000/visit-google/">
+  <link rel="canonical" href="http://localhost:4000/tech/2013-10-26-gitbub-tips/">
+  <meta property="og:url" content="http://localhost:4000/tech/2013-10-26-gitbub-tips/">
 
 
 
-  <meta property="og:description" content="不知道是不是因为离某个节日较近的原因，导致最近两周无法访问的Google了，作为没有Google就不知道如何搜索的人，这是不能容忍的，为了可以正常的访问找到了以下几种不折腾的方式：">
+  <meta property="og:description" content="建立blog时的注意项">
 
 
 
@@ -68,7 +68,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2014-06-09T00:00:00+08:00">
+  <meta property="article:published_time" content="2013-10-26T00:00:00+08:00">
 
 
 
@@ -146,10 +146,10 @@
         <ul class="visible-links">
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/">随笔</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/year-archive/">随笔</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/year-archive/">Archive</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/tech-archive/">技术</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/about/">关于</a></li>
@@ -168,41 +168,20 @@
   </div>
 </div>
 
-    <p>不知道是不是因为离某个节日较近的原因，导致最近两周无法访问的Google了，作为没有Google
-就不知道如何搜索的人，这是不能容忍的，为了可以正常的访问找到了以下几种不折腾的方式：</p>
+    <p><strong>建立blog时的注意项</strong></p>
 
 <ul>
   <li>
-    <p>通过IP直接访问，可以直接使用的IP地址： <br />
-(http://203.208.41.144/)    <br />
-(http://203.208.48.153/) <br />
-(http://74.125.235.191/)<br />
-(http://74.125.224.232/) <br />
-(http://203.208.46.148/) <br />
-(http://203.208.46.147/) <br />
-(http://203.208.46.146/) <br />
-(http://203.208.46.145/) <br />
-(http://203.208.46.144/) <br />
-(http://173.194.72.104/) <br />
-(http://74.125.228.51/)</p>
+    <p>对于 http://username.github.io 这样的网址，一个账户只能够建立一个，以及新建的Repository的名字必须为username.github.io，并且在主分支上建立。不设置_config.yml文件的baseurl属性。</p>
   </li>
   <li>
-    <p>通过下面这几个地址访问  <br />
-(https://www.google.com/ncr/) <br />
-(http://startpage.com/) <br />
-(http://google.com.im/)</p>
+    <p>对于 https://github.com/username/project 类似的网址，需要使用Repository的gh-pages分支，以及明确的设置baseurl属性，路径为Repository的名称。也可以用cname之类的设置网
+页地址。</p>
   </li>
   <li>
-    <p>还可以通过购买VPN或者肉身等高级的方式直接无障碍访问</p>
-  </li>
-  <li>
-    <p>下面这个地址收录了据说是Google全球的IP，不能访问时自己从中挑一个吧
-(http://www.kookle.co.nr/)</p>
+    <p>所有文件建议使用utf8编码，及注意使用无BOM格式编码</p>
   </li>
 </ul>
-
-<p>最后看完请不要告诉其他人</p>
-
 
 
     <div class="page__footer">

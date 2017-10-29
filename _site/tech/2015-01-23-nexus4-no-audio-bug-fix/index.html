@@ -19,12 +19,12 @@
 
 
 
-<title>建立github blog注意项 - 学而时习</title>
+<title>nexus 4 电话无声音修复方式 - 学而时习</title>
 
 
 
 
-<meta name="description" content="建立blog时的注意项">
+<meta name="description" content="###问题描述谷歌四儿子在待机几个小时后做被叫能够听到铃声，接听后没有声音，对方也听不到声音，做主叫打给对方时听不到对方的响铃，对方接听后也是无声音，重启后正常。">
 
 
 
@@ -33,15 +33,15 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="学而时习">
-<meta property="og:title" content="建立github blog注意项">
+<meta property="og:title" content="nexus 4 电话无声音修复方式">
 
 
-  <link rel="canonical" href="http://localhost:4000/gitbub_tips/">
-  <meta property="og:url" content="http://localhost:4000/gitbub_tips/">
+  <link rel="canonical" href="http://localhost:4000/tech/2015-01-23-nexus4-no-audio-bug-fix/">
+  <meta property="og:url" content="http://localhost:4000/tech/2015-01-23-nexus4-no-audio-bug-fix/">
 
 
 
-  <meta property="og:description" content="建立blog时的注意项">
+  <meta property="og:description" content="###问题描述谷歌四儿子在待机几个小时后做被叫能够听到铃声，接听后没有声音，对方也听不到声音，做主叫打给对方时听不到对方的响铃，对方接听后也是无声音，重启后正常。">
 
 
 
@@ -68,7 +68,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2013-10-26T00:00:00+08:00">
+  <meta property="article:published_time" content="2015-01-23T00:00:00+08:00">
 
 
 
@@ -146,10 +146,10 @@
         <ul class="visible-links">
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/">随笔</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/year-archive/">随笔</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/year-archive/">Archive</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/tech-archive/">技术</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/about/">关于</a></li>
@@ -168,20 +168,27 @@
   </div>
 </div>
 
-    <p><strong>建立blog时的注意项</strong></p>
+    <p>###问题描述
+谷歌四儿子在待机几个小时后做被叫能够听到铃声，接听后没有声音，对方也听不到声音，做主叫打给对方时听不到对方的响铃，对方接听后也是无声音，重启后正常。</p>
 
-<ul>
-  <li>
-    <p>对于 http://username.github.io 这样的网址，一个账户只能够建立一个，以及新建的Repository的名字必须为username.github.io，并且在主分支上建立。不设置_config.yml文件的baseurl属性。</p>
-  </li>
-  <li>
-    <p>对于 https://github.com/username/project 类似的网址，需要使用Repository的gh-pages分支，以及明确的设置baseurl属性，路径为Repository的名称。也可以用cname之类的设置网
-页地址。</p>
-  </li>
-  <li>
-    <p>所有文件建议使用utf8编码，及注意使用无BOM格式编码</p>
-  </li>
-</ul>
+<p>Android 5.0.1<br />
+版本后：LRX22C</p>
+
+<p>###解决方法</p>
+
+<p>*关闭Nuplayer<br />
+在“开发者选项” 关闭“使用NuPlayer”功能，该功能为实验性功能
+<a href="https://code.google.com/p/android/issues/detail?can=2&amp;start=0&amp;num=100&amp;q=&amp;colspec=ID%20Type%20Status%20Owner%20Summary%20Stars&amp;groupby=&amp;sort=&amp;id=82949">链接地址</a> 440楼</p>
+
+<p>*禁用所有check开头的服务，需要root（没有尝试）<br />
+禁用GMS checkin service，但据说禁用后会增大电量的消耗，所以建议禁用所有checkin开头的服务
+<a href="https://www.reddit.com/r/nexus4/comments/2p3dl1/no_voiceaudio_in_calls/">讨论地址</a></p>
+
+<p>###最后</p>
+
+<p>该问题在Google的Nexus论坛上很多人反馈，但是Google貌似没有给出解决方法或者解决bug的计划</p>
+
+<p>自从四儿子升级到5.0.1之后不但接打电话没声音，还经常重启，在考虑要不要换成其他系统了，表示已经受够了</p>
 
 
     <div class="page__footer">

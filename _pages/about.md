@@ -6,29 +6,12 @@ last_modified_at: 2017-10-20T12:43:30-04:00
 toc: true
 ---
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
+张振玉，是杭州快驰科技nTMS系统产品经理。
+2009年毕业于解放军信息工程大学，电子科学与技术（信息安全）专业。毕业后进入通信公司，从事无线网络优化工作至2015年，历经两家通信公司，服务于中国移动各省市分公司。
+2015年5月以数据分析师进入杭州快驰科技，搭建BI平台以及商业报告输出。之后由于项目原因转为nTMS系统产品经理。
 
----
+-   Email: i@zhatrix.com
 
-## Credits
+## Changelog
 
-### Icons + Demo Images:
-
-- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
-- [Font Awesome](http://fontawesome.io/)
-- [Unsplash](https://unsplash.com/)
-
-### Other:
-
-- [Jekyll](https://jekyllrb.com/)
-- [jQuery](https://jquery.com/)
-- [Susy](http://susy.oddbird.net/)
-- [Breakpoint](http://breakpoint-sass.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
-- Greedy Navigation - [lukejacksonn](https://codepen.io/lukejacksonn/pen/PwmwWV)
-- [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
-
----
-
-Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
+-   20171029 ：张振玉创建
