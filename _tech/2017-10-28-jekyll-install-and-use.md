@@ -223,7 +223,7 @@ Done installing documentation for public_suffix, addressable, colorator, rb-fsev
 jekyll 3.6.2
 ```
 
-2.2 ### 新建站点
+### 2.2  新建站点
 
 ```
 jekyll new  blog-name
