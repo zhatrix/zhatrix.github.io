@@ -13,7 +13,7 @@ title                    : "学而时习"
 title_separator          : "-"
 name                     : "zHaTriX"
 description              : "知识改变行动 行动塑造身体 身体即是模型 具身认知改变"
-url                      : "http://zhatrix.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://zhatrix.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -88,7 +88,7 @@ author:
   bio              : "6年通信工程师，2年互联网数据分析师，2年物流SAAS产品经理。"
   location         : "杭州,浙江"
   email            : "i@zhatrix.com"
-  uri              : 
+  uri              :
   bitbucket        :
   codepen          :
   dribbble         :
